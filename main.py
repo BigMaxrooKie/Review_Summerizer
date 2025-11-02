@@ -1,5 +1,7 @@
 # main.py
 
+#icons needed
+
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QTextEdit, QVBoxLayout, QFileDialog, QLabel
 from PyQt5.QtCore import QThread
 from utilities import load_comments
