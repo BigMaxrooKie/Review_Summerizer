@@ -37,7 +37,7 @@ class ReviewWorker(QObject):
                 comments.append(text)
 
                 # Stop after 500 (good balance for speed)
-                if len(comments) >= 500:
+                if len(comments) >= 50:
                     return comments
 
             next_token = data.get("nextPageToken")
